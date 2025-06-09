@@ -6,23 +6,29 @@
     <title>ToDo List</title>
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header__title">Todo list</h1>
+        <form action="" class="header">
+          <input type="search" class="header__search" placeholder="Поиск..." />
+          <select name="" id="" class="header__select">
+            <option value="All" class="header__option">All</option>
+            <option value="Complete" class="header__option">Complete</option>
+            <option value="Incomplete" class="header__option">
+              Incomplete
+            </option>
+          </select>
+          <button class="header__button button-reset"></button>
+        </form>
+      </div>
+    </header>
     <main class="main">
       <div class="container">
-        <h1 class="main__title">Todo list</h1>
-        <form action="" class="main__form">
-          <input type="search" class="main__search" placeholder="Поиск..." />
-          <select name="" id="" class="main__select">
-            <option value="All" class="main__option">All</option>
-            <option value="Complete" class="main__option">Complete</option>
-            <option value="Incomplete" class="main__option">Incomplete</option>
-          </select>
-          <button class="main__button button-reset"></button>
-        </form>
         <ul class="main__list list-reset">
-          <li class="main__item">Read Recomended Book</li>
+          <li class="main__item">Note</li>
         </ul>
       </div>
-      <button class="main__add-option-button"></button>
+      <button class="main__button"></button>
     </main>
   </body>
 </html>
